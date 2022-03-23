@@ -48,7 +48,4 @@ public class ItemPedidoPK implements Serializable{
 		ItemPedidoPK other = (ItemPedidoPK) obj;
 		return Objects.equals(pedido, other.pedido) && Objects.equals(produto, other.produto);
 	}
-
-	
-	
 }

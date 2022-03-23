@@ -135,9 +135,4 @@ public class Cliente implements Serializable{
 		Cliente other = (Cliente) obj;
 		return Objects.equals(id, other.id);
 	}
-
-
-	
-	
-
 }

@@ -133,9 +133,4 @@ public class Pedido implements Serializable {
 		Pedido other = (Pedido) obj;
 		return Objects.equals(id, other.id);
 	}
-
-
-	
-	
-	
 }
